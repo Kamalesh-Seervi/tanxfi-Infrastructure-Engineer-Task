@@ -89,7 +89,7 @@ docker container rm <container_id or name>
 
 ### Test Cases:
 
-- To test the cases locally with docker type below command .
+- To test the cases locally without docker type below command .
 
 ```
 cd go
