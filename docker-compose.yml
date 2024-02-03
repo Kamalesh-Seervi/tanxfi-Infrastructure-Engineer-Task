@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: ./go
+      dockerfile: Dockerfile
+  test:
+    build:
+      context: ./go
+      dockerfile: Dockerfile.test
+    depends_on:
+      - app
+
